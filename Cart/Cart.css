@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+#cartContainer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.cart-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.card-left {
+    flex: 1;
+    text-align: center;
+}
+
+.card-left img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.card-center {
+    flex: 2;
+    padding: 0 20px;
+}
+
+.card-center h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 22px;
+}
+
+.card-center p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.card-center p span {
+    font-weight: 600;
+    color: #888;
+}
+
+.card-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444 !important;
+    margin-top: 10px !important;
+}
+
+.card-right {
+    flex: 0.5;
+    text-align: right;
+}
+
+.remove-btn {
+    background-color: #ff8a8a; /* Soft red from image */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.remove-btn:hover {
+    background-color: #ff5c5c;
+}
+
+#summarySection {
+    text-align: right;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#totalPrice {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+}
+
+.empty-msg {
+    text-align: center;
+    font-size: 20px;
+    padding: 50px;
+    background: white;
+    border-radius: 8px;
+}
